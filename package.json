@@ -1,0 +1,23 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Lucas Leal",
+  "license": "ISC",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "zeus dev",
+    "preview": "zeus preview",
+    "build": "zeus build",
+    "bridge": "zeus bridge",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@zeppos/device-types": "^1.0.0",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.3"
+  }
+}
